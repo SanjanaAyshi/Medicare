@@ -25,5 +25,31 @@ const displayDoctor = (doctors) => {
     parent.appendChild(div);
   });
 };
-
+// const loadReview = () => {
+//   fetch("https://docdekhaw.onrender.com/doctorreviews/")
+//     .then((res) => res.json())
+//     .then((data) => displayReview(data))
+//     .catch((err) => console.log(err));
+// };
+// const displayReview = (reviews) => {
+//   reviews.forEach((review) => {
+//     const parent = document.getElementById("display-review");
+//     const div = document.createElement("div");
+//     div.classList.add("client-info")
+//     div.innerHTML=`
+//       <h4>Amazing service!</h4>
+//       <span>John Partho</span>
+//     </div>
+//     <p>
+//       They provide great service facilty consectetur adipisicing elit.
+//       Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos
+//       adipisci suscipit fugit placeat. Quibusdam laboriosam eveniet
+//       nostrum nemo commodi numquam quod.
+//     </p>
+//     <i class="icofont-quote-right"></i>
+//     `
+//   });
+//   parent.appendChild(div);
+// }
+// loadReview();
 loadDoctor();
