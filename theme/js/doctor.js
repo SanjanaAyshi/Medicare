@@ -51,4 +51,5 @@ const displyDoctors = (doctors) => {
   });
 };
 
+
 loadDoctor();
